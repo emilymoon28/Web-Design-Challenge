@@ -1,0 +1,81 @@
+body{
+  background-color: #E6EBEB;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img-border {
+  border: 3px solid #0BADA6;
+}
+
+.myImage {
+  width: 280px;
+  height: 280px;
+}
+
+h3{
+  margin: 10px;
+}
+
+p {
+  font-weight: normal;
+  font-size:large;
+}
+
+.box {
+  min-height: 50px;
+  padding: 10px;
+  margin: 30px;
+  font-weight: 800;
+}
+
+
+.white {
+  background:white;
+}
+
+.blue{
+  color:#0BADA6
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+}
+.footer {
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+.hrfooter {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* Set the border color */ 
+          
+.custom-toggler.navbar-toggler { 
+  border-color: white; 
+} 
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+
+.custom-toggler.navbar-toggler-icon { 
+  background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.nav-custom-small {
+  background-color: white;
+}
+
+@media (max-width:991px) {
+  .nav-custom-small {
+    background-color: #0BADA6;
+  }
+}
